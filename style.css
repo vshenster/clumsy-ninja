@@ -1,5 +1,38 @@
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: #8a5462
+    color: rgb(126, 83, 83)
+}
+
+#introPic {
+    background-color: rgb(213, 159, 159);
+}
+
+#introContent {
+    background-color: rgb(213, 159, 159);
+}
+
+#firstImage {
+    background-color: rgb(213, 159, 159, .7);
+}
+
+#firstInfo {
+    background-color: rgb(213, 159, 159, .7);
+
+}
+
+#secondInfo {
+    background-color: rgb(213, 159, 159, .5);
+}
+
+#secondImage {
+    background-color: rgb(213, 159, 159, .5)
+}
+
+footer {
+    background-color: rgb(213, 159, 159, .3);
+}
+
+#bottomEmptySpace {
+    margin-top: 500px;
 }
