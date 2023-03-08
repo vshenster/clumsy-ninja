@@ -1,64 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
         <title>Just Vicky* Things</title>
     </head>
     <body>
-        <header>
-            <h1>Just Vicky<a href="#asterisknote">*</a> Things</h1>
+        <header class="header">
+            <div class="container">
+                <h1>Just Vicky<a href="#asterisknote">*</a> Things</h1>
+            </div>
         </header>
-        <div id="mainContent">
-            <div id="intro">
-                <!--Full width of window content area-->
-                <div id="introPic">
-                    <!--Maybe insert image slideshow here-->
-                    <img src="https://placebear.com/800/400">
-                </div>
+        <div class="intro">
+            <div class="container">
                 <div id="introContent">
                     <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quod."</p>
                 </div>
-            </div>
-            <div id="sectionOne">
-                <div id="firstImage">
-                    <!--First image on left third-->
-                    <img src="https://placebear.com/200/300">
-                </div>
-                <div id="firstInfo">
-                    <!--First info section-->
-                    <h3>Lorem ipsum dolor sit.</h3>
-                    <ul>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                    </ul>
-                </div>
-            </div>
-            <div id="sectionTwo">
-                <div id="secondInfo">
-                    <!--Second info section-->
-                    <h3>Lorem ipsum dolor sit.</h3>
-                    <ul>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                        <li>asdf</li>
-                    </ul>
-                </div>
-                <div id="secondImage">
-                    <!--Second image on right third-->
-                    <img src="https://placebear.com/200/300">
-                </div>
+                <!--Maybe insert image slideshow here-->
+                <img id="introPic" src="https://placebear.com/800/400">
             </div>
         </div>
-        <footer id="asterisknote">
+        <div class="sections">
+            <div class="container">
+                <div class="box" id="firstInfo">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <ul>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                    </ul>
+                </div>
+                <img class="image" src="https://placebear.com/250/350">
+            </div>
+            <div class="container">
+                <div class="box" id="secondInfo">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <ul>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                        <li>asdf</li>
+                    </ul>
+                </div>
+                <img class="image" src="https://placebear.com/250/350">
+            </div>
+        </div>
+        <footer class="container" id="asterisknote">
             <p><small>*Not short for Victoria</small></p>
         </footer>
-        
-        <a href="https://www.youtube.com" target="_blank" rel=”noopener noreferrer”>Link Here</a>
+
         <script src="script.js"></script>
 
         <div id="bottomEmptySpace"></div>
